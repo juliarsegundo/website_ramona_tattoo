@@ -67,3 +67,18 @@ window.addEventListener('scroll', () => {
     nav.classList.remove('scrolled');
   }
 });
+
+function toggleMoreFaq() {
+  const extras = document.querySelectorAll('.extra-faq');
+  const btn = document.querySelector('.see-more');
+
+  const isHidden = extras[0].style.display === '' || extras[0].style.display === 'none';
+
+  extras.forEach(el => {
+    el.style.display = isHidden ? 'block' : 'none';
+  });
+
+  btn.textContent = isHidden
+    ? 'Ver menos perguntas ↑'
+    : 'Ver todas as perguntas →';
+}
