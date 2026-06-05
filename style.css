@@ -287,9 +287,10 @@ body > nav {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 0 8px 30px rgba(232,127,168,0.35);
+    box-shadow: 0 12px 40px rgba(232,127,168,0.5);
     transition: transform 0.2s, box-shadow 0.2s;
     align-self: center;
+    opacity: 0.5;
   }
   .btn-whatsapp:hover {
     transform: translateY(-2px);
