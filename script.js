@@ -47,18 +47,148 @@ const imagens = {
   ],
   delicadas: [
     "imagens/Delicadas/Delicadas-1.jpg",
+    "imagens/Delicadas/Delicadas-2.jpg",
+    "imagens/Delicadas/Delicadas-3.jpg",
+    "imagens/Delicadas/Delicadas-4.jpg",
+    "imagens/Delicadas/Delicadas-6.jpg",
+    "imagens/Delicadas/Delicadas-7.jpg",
+    "imagens/Delicadas/Delicadas-8.jpg",
+    "imagens/Delicadas/Delicadas-9.jpg",
+    "imagens/Delicadas/Delicadas-10.jpg",
+    "imagens/Delicadas/Delicadas-11.jpg",
+    "imagens/Delicadas/Delicadas-12.jpg",
+    "imagens/Delicadas/Delicadas-13.jpg",
+    "imagens/Delicadas/Delicadas-14.jpg",
+    "imagens/Delicadas/Delicadas-15.jpg",
+    "imagens/Delicadas/Delicadas-16.jpg",
+    "imagens/Delicadas/Delicadas-17.jpg",
+    "imagens/Delicadas/Delicadas-18.jpg",
+    "imagens/Delicadas/Delicadas-19.jpg",
+    "imagens/Delicadas/Delicadas-20.jpg",
+    "imagens/Delicadas/Delicadas-21.jpg",
+    "imagens/Delicadas/Delicadas-23.jpg",
+    "imagens/Delicadas/Delicadas-24.jpg",
+    "imagens/Delicadas/Delicadas-25.jpg",
+    "imagens/Delicadas/Delicadas-26.jpg",
+    "imagens/Delicadas/Delicadas-27.jpg",
+    "imagens/Delicadas/Delicadas-28.jpg",
+    "imagens/Delicadas/Delicadas-29.jpg"
   ],
   aquarela: [
     "imagens/Aquarela/Aquarela-1.jpg",
+    "imagens/Aquarela/Aquarela-2.jpg",
+    "imagens/Aquarela/Aquarela-3.jpg",
+    "imagens/Aquarela/Aquarela-4.jpg",
+    "imagens/Aquarela/Aquarela-5.jpg",
+    "imagens/Aquarela/Aquarela-6.jpg",
+    "imagens/Aquarela/Aquarela-7.jpg",
+    "imagens/Aquarela/Aquarela-8.jpg",
+    "imagens/Aquarela/Aquarela-9.jpg",
+    "imagens/Aquarela/Aquarela-10.jpg",
+    "imagens/Aquarela/Aquarela-11.jpg",
+    "imagens/Aquarela/Aquarela-12.jpg",
+    "imagens/Aquarela/Aquarela-13.jpg",
+    "imagens/Aquarela/Aquarela-14.jpg",
+    "imagens/Aquarela/Aquarela-15.jpg",
+    "imagens/Aquarela/Aquarela-16.jpg",
+    "imagens/Aquarela/Aquarela-17.jpg",
+    "imagens/Aquarela/Aquarela-18.jpg",
+    "imagens/Aquarela/Aquarela-19.jpg",
+    "imagens/Aquarela/Aquarela-20.jpg",
+    "imagens/Aquarela/Aquarela-21.jpg",
+    "imagens/Aquarela/Aquarela-22.jpg",
+    "imagens/Aquarela/Aquarela-23.jpg",
+    "imagens/Aquarela/Aquarela-24.jpg",
+    "imagens/Aquarela/Aquarela-25.jpg",
+    "imagens/Aquarela/Aquarela-26.jpg",
+    "imagens/Aquarela/Aquarela-27.jpg",
+    "imagens/Aquarela/Aquarela-28.jpg",
+    "imagens/Aquarela/Aquarela-29.jpg",
+    "imagens/Aquarela/Aquarela-30.jpg",
+    "imagens/Aquarela/Aquarela-31.jpg",
+    "imagens/Aquarela/Aquarela-32.jpg",
+    "imagens/Aquarela/Aquarela-33.jpg"
   ],
   coloridas: [
-    "imagens/Coloridas/Coloridas-1.jpg"
+    "imagens/Coloridas/Coloridas-1.jpg",
+    "imagens/Coloridas/Coloridas-2.jpg",
+    "imagens/Coloridas/Coloridas-3.jpg",
+    "imagens/Coloridas/Coloridas-4.jpg",
+    "imagens/Coloridas/Coloridas-5.jpg",
+    "imagens/Coloridas/Coloridas-6.jpg",
+    "imagens/Coloridas/Coloridas-7.jpg",
+    "imagens/Coloridas/Coloridas-8.jpg",
+    "imagens/Coloridas/Coloridas-9.jpg",
+    "imagens/Coloridas/Coloridas-10.jpg",
+    "imagens/Coloridas/Coloridas-11.jpg",
+    "imagens/Coloridas/Coloridas-12.jpg",
+    "imagens/Coloridas/Coloridas-13.jpg",
+    "imagens/Coloridas/Coloridas-14.jpg",
+    "imagens/Coloridas/Coloridas-15.jpg",
+    "imagens/Coloridas/Coloridas-16.jpg",
+    "imagens/Coloridas/Coloridas-17.jpg",
+    "imagens/Coloridas/Coloridas-18.jpg",
+    "imagens/Coloridas/Coloridas-19.jpg",
+    "imagens/Coloridas/Coloridas-20.jpg",
+    "imagens/Coloridas/Coloridas-21.jpg",
+    "imagens/Coloridas/Coloridas-22.jpg",
+    "imagens/Coloridas/Coloridas-23.jpg",
+    "imagens/Coloridas/Coloridas-24.jpg",
+    "imagens/Coloridas/Coloridas-25.jpg",
+    "imagens/Coloridas/Coloridas-26.jpg"
   ],
   blackwork: [
-    "imagens/Blackwork/Blackwork-1.jpg"
+    "imagens/Blackwork/Blackwork-1.jpg",
+    "imagens/Blackwork/Blackwork-2.jpg",
+    "imagens/Blackwork/Blackwork-3.jpg",
+    "imagens/Blackwork/Blackwork-4.jpg",
+    "imagens/Blackwork/Blackwork-5.jpg",
+    "imagens/Blackwork/Blackwork-6.jpg",
+    "imagens/Blackwork/Blackwork-7.jpg",
+    "imagens/Blackwork/Blackwork-8.jpg",
+    "imagens/Blackwork/Blackwork-9.jpg",
+    "imagens/Blackwork/Blackwork-10.jpg",
+    "imagens/Blackwork/Blackwork-11.jpg",
+    "imagens/Blackwork/Blackwork-12.jpg",
+    "imagens/Blackwork/Blackwork-13.jpg",
+    "imagens/Blackwork/Blackwork-14.jpg",
+    "imagens/Blackwork/Blackwork-15.jpg",
+    "imagens/Blackwork/Blackwork-16.jpg",
+    "imagens/Blackwork/Blackwork-17.jpg",
+    "imagens/Blackwork/Blackwork-18.jpg",
+    "imagens/Blackwork/Blackwork-19.jpg",
+    "imagens/Blackwork/Blackwork-20.jpg"
   ],
   fineline: [
-    "imagens/Linhas/Linhas-1.jpg"
+    "imagens/Linhas/Linhas-1.jpg",
+    "imagens/Linhas/Linhas-2.jpg",
+    "imagens/Linhas/Linhas-3.jpg",
+    "imagens/Linhas/Linhas-4.jpg",
+    "imagens/Linhas/Linhas-5.jpg",
+    "imagens/Linhas/Linhas-6.jpg",
+    "imagens/Linhas/Linhas-7.jpg",
+    "imagens/Linhas/Linhas-8.jpg",
+    "imagens/Linhas/Linhas-9.jpg",
+    "imagens/Linhas/Linhas-10.jpg",
+    "imagens/Linhas/Linhas-11.jpg",
+    "imagens/Linhas/Linhas-12.jpg",
+    "imagens/Linhas/Linhas-13.jpg",
+    "imagens/Linhas/Linhas-14.jpg",
+    "imagens/Linhas/Linhas-15.jpg",
+    "imagens/Linhas/Linhas-16.jpg",
+    "imagens/Linhas/Linhas-17.jpg",
+    "imagens/Linhas/Linhas-18.jpg",
+    "imagens/Linhas/Linhas-19.jpg",
+    "imagens/Linhas/Linhas-20.jpg",
+    "imagens/Linhas/Linhas-21.jpg",
+    "imagens/Linhas/Linhas-22.jpg",
+    "imagens/Linhas/Linhas-23.jpg",
+    "imagens/Linhas/Linhas-24.jpg",
+    "imagens/Linhas/Linhas-26.jpg",
+    "imagens/Linhas/Linhas-27.jpg",
+    "imagens/Linhas/Linhas-28.jpg",
+    "imagens/Linhas/Linhas-29.jpg",
+    "imagens/Linhas/Linhas-30.jpg"
   ]
 };
 
@@ -70,11 +200,13 @@ const imagens = {
   setTimeout(() => {
     const items = imagens[category] || imagens.pets;
 
-    grid.innerHTML = items.map(src => `
-  <div class="portfolio-item">
-    <img src="${src}" loading="lazy" onclick="openModal('${src}')">
-  </div>
-`).join('');
+    grid.innerHTML = items.map((src, index) => `
+      <div class="portfolio-item ${index >= 12 ? 'portfolio-item hidden-item' : 'portfolio-item show-item'}">
+        <img src="${src}" loading="lazy" onclick="openModal('${src}')">
+      </div>
+    `).join('');
+    const btn = document.querySelector('.see-more');
+    if (btn) btn.textContent = 'Ver mais →';
     grid.style.opacity = '1';
     grid.style.transform = 'translateY(0)';
   }, 250);
@@ -87,6 +219,31 @@ if (menuBtn && mobileMenu) {
   menuBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
   });
+}
+
+function togglePortfolio() {
+  const items = document.querySelectorAll('.portfolio-item');
+  const btn = document.querySelector('.see-more');
+
+  const isExpanded = btn.classList.contains('expanded');
+
+  items.forEach((el, index) => {
+    if (index >= 12) {
+      el.style.transitionDelay = `${index * 0.03}s`;
+      
+      if (!isExpanded) {
+        el.classList.add('show-item');
+      } else {
+        el.classList.remove('show-item');
+      }
+    }
+  });
+
+  btn.classList.toggle('expanded');
+
+  btn.textContent = !isExpanded
+    ? 'Ver menos ↑'
+    : 'Ver mais →';
 }
 
 const observer = new IntersectionObserver(entries => {
@@ -144,3 +301,10 @@ function openModal(src) {
 function closeModal() {
   document.getElementById("imageModal").classList.remove("active");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const firstTab = document.querySelector('.tab.active');
+  if (firstTab) {
+    filterTab(firstTab, 'pets');
+  }
+});

@@ -502,6 +502,22 @@ body > nav {
     align-items: flex-end;
   }
 
+  .hidden-item {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    position: absolute;
+  }
+
+  .show-item {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    position: relative;
+
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+
     /* ── COMO FUNCIONA ── */
   .como-funciona {
     background: var(--white);
