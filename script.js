@@ -206,7 +206,7 @@ const imagens = {
       </div>
     `).join('');
     const btn = document.querySelector('.see-more');
-    if (btn) btn.textContent = 'Ver mais →';
+    if (btn) btn.textContent = 'Ver mais ↓';
     grid.style.opacity = '1';
     grid.style.transform = 'translateY(0)';
   }, 250);
@@ -287,7 +287,7 @@ function toggleMoreFaq() {
 
   btn.textContent = isHidden
     ? 'Ver menos perguntas ↑'
-    : 'Ver todas as perguntas →';
+    : 'Ver todas as perguntas ↓';
 }
 
 function openModal(src) {
