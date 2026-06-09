@@ -243,7 +243,7 @@ function togglePortfolio() {
 
   btn.textContent = !isExpanded
     ? 'Ver menos ↑'
-    : 'Ver mais →';
+    : 'Ver mais ↓';
 }
 
 const observer = new IntersectionObserver(entries => {
