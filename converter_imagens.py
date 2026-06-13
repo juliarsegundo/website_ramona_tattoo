@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 pasta_entrada = "imagens-originais"
-pasta_saida = "Imagens Saída Nome"
+pasta_saida = "Pasta Imagens Nome"
 
 os.makedirs(pasta_saida, exist_ok=True)
 
@@ -31,15 +31,15 @@ for arquivo in os.listdir(pasta_entrada):
             altura_nova = int(imagem.height * proporcao)
             imagem = imagem.resize((largura_max, altura_nova))
 
-        novo_nome = f"Nome-{contador}.jpg"
+        novo_nome = f"NOMEIMAGEM-{contador}.jpg"
         caminho_saida = os.path.join(pasta_saida, novo_nome)
 
         # 🔥 salvar otimizado
         imagem.save(
-            caminho_saida,
-            "JPEG",
+            caminho_saida.replace(".jpg", ".webp"),
+            "WEBP",
             quality=70,
-            optimize=True
+            method=6
         )
 
         contador += 1
