@@ -196,7 +196,7 @@ body > nav {
   .hero {
     position: relative;
     min-height: 100svh;
-    padding: 80px 24px 30px;
+    padding: 80px 24px 2px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -333,23 +333,23 @@ body > nav {
   }
 
   .hero::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -1px;
-  height: 180px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 180px;
 
-  background: linear-gradient(
-    to bottom,
-    rgba(250, 248, 255, 0) 0%,
-    rgba(250, 248, 255, 0.7) 55%,
-    var(--off-white) 100%
-  );
+    background: linear-gradient(
+      to bottom,
+      rgba(250, 248, 255, 0) 0%,
+      rgba(250, 248, 255, 0.7) 55%,
+      var(--off-white) 100%
+    );
 
-  pointer-events: none;
-  z-index: 1;
-}
+    pointer-events: none;
+    z-index: 1;
+  }
 
   /* ── SECTION SHARED ── */
   section { padding: 60px 24px; position: relative; overflow: hidden; }
@@ -386,8 +386,7 @@ body > nav {
   .diff-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    margin-top: 20px;
+    gap: 17px;
   }
 
   .diff-card {
@@ -540,19 +539,19 @@ body > nav {
   }
 
   .step-icon {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
-}
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
 
-.step-icon img {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-  display: block;
-}
+  .step-icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+  }
 
   .step-title {
     font-size: 11px;
@@ -568,25 +567,6 @@ body > nav {
     line-height: 1.6;
   }
 
-  .refund-note {
-    margin-top: 24px;
-    background: linear-gradient(135deg, rgba(212,184,232,0.12) 0%, rgba(168,230,228,0.12) 100%);
-    border-radius: 16px;
-    padding: 20px;
-    display: flex;
-    gap: 14px;
-    align-items: flex-start;
-  }
-  .refund-note-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
-  .refund-note-text { font-size: 13px; color: var(--text-light); line-height: 1.6; }
-  .refund-note-text em {
-    font-family: 'Dancing Script', cursive;
-    font-size: 16px;
-    color: var(--pink);
-    font-style: normal;
-    display: block;
-    margin-top: 6px;
-  }
 
   /* ── MATERIAIS ── */
   .materiais {
@@ -954,13 +934,13 @@ body > nav {
   /* ── FOOTER ── */
   footer {
     background: var(--dark);
-    padding: 35px 24px 32px;
+    padding: 25px 24px 32px;
     color: rgba(255,255,255,0.7);
   }
 
     .footer-logo {
-    width: 120px;
-    margin-bottom: 12px;
+    width: 100px;
+    margin-bottom: 10px;
   }
 
   .footer-logo img {
@@ -970,27 +950,28 @@ body > nav {
     object-fit: contain;
   }
   .footer-tagline {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.6;
     color: rgba(255,255,255,0.5);
-    margin-bottom: 28px;
     max-width: 220px;
+    margin-bottom: 5px;
   }
   .footer-tagline span {
     color: var(--pink-light);
   }
 
   .footer-nav-title {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: rgba(255,255,255,0.9);
     margin-bottom: 14px;
+    margin-top: 20px;
   }
   .footer-nav a {
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     color: rgba(255,255,255,0.5);
     text-decoration: none;
     margin-bottom: 8px;
