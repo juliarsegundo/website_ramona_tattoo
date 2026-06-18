@@ -296,7 +296,10 @@ body > nav {
     transform: translateY(-2px);
     box-shadow: 0 12px 36px rgba(232,127,168,0.45);
   }
-  .btn-whatsapp svg { width: 18px; height: 18px; }
+  .btn-whatsapp svg {
+    width: 30px;
+    height: 30px;
+  }
 
   /* Hero image card */
   .hero-img-card {
@@ -773,6 +776,77 @@ body > nav {
   }
   .see-more:hover { gap: 14px; }
 
+  /* ── ABOUT ── */
+.about {
+  background: var(--off-white);
+  padding: 64px 24px;
+}
+
+.about-content {
+  text-align: left;
+}
+
+.about-card {
+  padding: 20px 20px 0;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  background: 
+    linear-gradient(
+      to bottom,
+      white 30%,
+      rgba(255,255,255,0.8) 60%,
+      rgba(255,255,255,0) 100%
+    ),
+    url("imagens/background-about.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-img {
+  width: 150px !important;
+  height: auto;
+  object-fit: contain;
+  align-self: center;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    width: 100px;
+  }
+
+  .about-text {
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .about-images {
+    flex: 1;
+  }
+  .about-content {
+    flex: 1;
+  }
+}
+
   /* ── FAQ ── */
   .faq {
     background: linear-gradient(135deg, rgba(212,184,232,0.06) 0%, rgba(168,230,228,0.06) 100%);
@@ -908,6 +982,11 @@ body > nav {
     max-width: 280px;
     justify-content: center;
   }
+  .btn-white svg {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+  }
   .btn-white:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(0,0,0,0.15); }
 
   .btn-transparent {
@@ -950,7 +1029,7 @@ body > nav {
     object-fit: contain;
   }
   .footer-tagline {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 1.6;
     color: rgba(255,255,255,0.5);
     max-width: 220px;
@@ -961,7 +1040,7 @@ body > nav {
   }
 
   .footer-nav-title {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -974,7 +1053,7 @@ body > nav {
     font-size: 12px;
     color: rgba(255,255,255,0.5);
     text-decoration: none;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     transition: color 0.2s;
   }
   .footer-nav a:hover { color: var(--lilac-light); }
@@ -986,14 +1065,23 @@ body > nav {
   }
 
   .social-icon {
-    width: 40px; height: 40px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: rgba(255,255,255,0.08);
     display: flex; align-items: center; justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
     transition: background 0.2s, transform 0.2s;
     cursor: pointer;
   }
+
+  .social-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-top: 2px;
+  }
+
   .social-icon:hover {
     background: rgba(179,136,214,0.3);
     transform: scale(1.1);
@@ -1100,6 +1188,54 @@ body > nav {
     color: white;
     cursor: pointer;
   }
+
+  /* ── POP UP KIT ── */
+  .modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.kitpopup-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 50px;
+
+  margin: 20px auto 18px;
+  display: block;
+
+  box-shadow: 0 6px 20px #f5c6d8;
+  border: 2px solid #f5c6d8;
+  overflow: hidden;
+}
+
+.modal-content {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  max-width: 320px;
+  text-align: center;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  cursor: pointer;
+  font-size: 20px;
+}
 
   /* ── ANIMATIONS ── */
   @keyframes fadeUp {

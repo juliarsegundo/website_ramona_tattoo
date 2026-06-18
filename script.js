@@ -308,3 +308,11 @@ document.addEventListener("DOMContentLoaded", () => {
     filterTab(firstTab, 'pets');
   }
 });
+
+function openKitModal() {
+  document.getElementById("kitModal").classList.add("active");
+}
+
+function closeKitModal() {
+  document.getElementById("kitModal").classList.remove("active");
+}

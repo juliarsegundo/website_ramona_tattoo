@@ -18,9 +18,10 @@
 
   <div class="nav-links">
     <a href="#portfolio">Portfólio</a>
-    <a href="#sobre">Sobre mim</a>
-    <a href="#atendimento">Atendimento</a>
+    <a href="#about">Sobre mim</a>
+    <a href="#como-funciona">Como funciona</a>
     <a href="#cuidados">Cuidados</a>
+    <a href="#meu-estudio">Meu estúdio</a>
     <a href="#faq">Perguntas frequentes</a>
   </div>
 
@@ -31,9 +32,10 @@
 
 <div class="mobile-menu">
   <a href="#portfolio">Portfólio</a>
-  <a href="#sobre">Sobre mim</a>
-  <a href="#atendimento">Atendimento</a>
+  <a href="#about">Sobre mim</a>
+  <a href="#como-funciona">Como funciona</a>
   <a href="#cuidados">Cuidados</a>
+  <a href="#meu-estudio">Meu estúdio</a>
   <a href="#faq">Perguntas frequentes</a>
 </div>
 
@@ -54,9 +56,8 @@
     Cuidado e qualidade em cada detalhe.
   </p>
 
-  <a href="https://wa.me/555184671294" class="btn-whatsapp fade-up fade-up-4">
-    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-    Agendar pelo WhatsApp
+  <a href="https://form.jotform.com/250067675890668" class="btn-whatsapp fade-up fade-up-4">
+    Criar minha tattoo
   </a>
 
   <!-- Hero image area -->
@@ -134,7 +135,7 @@
 </section>
 
 <!-- COMO FUNCIONA -->
-<section class="como-funciona">
+<section class="como-funciona" id="como-funciona">
   <p class="section-label">Como funciona</p>
   <h2 class="section-title">
     Do orçamento<br>
@@ -197,7 +198,7 @@
 </section>
 
 <!-- PÓS TATTOO -->
-<section class="pos-tattoo">
+<section class="pos-tattoo" id="cuidados">
   <p class="section-label">Pós Tattoo</p>
   <h2 class="section-title">
     Cuidado que faz<br>
@@ -209,12 +210,14 @@
       <img src="imagens/kitpostattoo.webp" alt="Imagem do Kit Pós Tattoo" loading="lazy">
     </div>
     <p class="pos-desc">Você recebe um kit completo com tudo que precisa e todas as instruções para uma cicatrização perfeita.</p>
-    <a href="#" class="btn-outline">🎁 &nbsp;Saiba mais sobre o kit</a>
+    <button class="btn-outline" onclick="openKitModal()">
+    🎁 &nbsp;Saiba mais sobre o kit
+    </button>
   </div>
 </section>
 
 <!-- PORTFOLIO PREVIEW/"MEU ESTÚDIO" -->
-<section class="portfolio-preview">
+<section class="portfolio-preview" id="meu-estudio">
   <p class="section-label">Meu Estúdio</p>
   <div class="works-grid">
     <div class="work-card">
@@ -254,13 +257,32 @@
       <img src="imagens/Estudio/imagenestudio-12.webp" alt="Imagem do estúdio Ramona Tattoo" loading="lazy">
     </div>
   </div>
-  <a href="https://www.instagram.com/ramona_tattoo/" target="_blank" class="see-more">
-    Ver mais no Instagram →
+  <a href="https://maps.app.goo.gl/wx3TiY8uMnfwieZX7" target="_blank" class="see-more">
+    Ver no Google Maps →
   </a>
 </section>
 
+<!--ABOUT-->
+<section class="about" id="about">
+  <div class="about-content">
+    <p class="section-label">Sobre mim</p>
+    
+    <h2 class="section-title">
+      Mais que tatuar,<br>
+    é criar uma <span class="section-script">experiência</span>
+    </h2>
+  </div>
+
+  <div class="about-card">
+    <p class="about-text">
+      Eu compreendo a enorme responsabilidade que é tatuar alguém. Tanto em relação à arte que vai durar para sempre, como também em relação à lembrança eterna dessa experiência, que vai desde o atendimento humanizado até a atenção ao cumprimento das normas de biossegurança. Prezo demais pela satisfação de quem contrata meu trabalho e não meço esforços para entregar o meu melhor em cada tatuagem, desde a criação da arte até sua qualidade a longo prazo.
+    </p>
+    <img src="imagens/imagemtatuadora.png" alt="Tatuadora" class="about-img">
+  </div>
+</section>
+
 <!-- FAQ -->
-<section class="faq">
+<section class="faq" id="faq">
   <p class="section-label" style="text-align:center">Dúvidas frequentes</p>
   <h2 class="section-title" style="text-align:center">Perguntas frequentes</h2>
 
@@ -343,12 +365,13 @@
   <p class="cta-banner-text">Pronta para transformar sua ideia</p>
   <span class="cta-banner-title">em arte na pele?</span>
   <div class="cta-btns">
-    <a href="https://wa.me/555184671294" class="btn-white">
+    <a href="https://form.jotform.com/250067675890668" class="btn-white">
+      <svg fill="#e87fa8" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.871 31.871" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M24.893,6.205c-1.95-3.218-5.202-5.542-9.127-6.088C8.672-0.866,2.746,4.439,1.066,11.698 c-2.123,9.183,0.275,12.399,4.726,12.532c0.817-0.74,1.83-1.322,2.945-1.666L24.893,6.205z M11.796,5.603 c0.241-1.737,1.846-2.95,3.583-2.709s2.95,1.847,2.709,3.583s-1.846,2.95-3.583,2.709C12.768,8.943,11.556,7.341,11.796,5.603z M5.237,9.045C5.415,7.759,6.605,6.858,7.892,7.04C9.181,7.216,10.079,8.404,9.9,9.693C9.722,10.98,8.531,11.881,7.244,11.7 C5.957,11.523,5.059,10.335,5.237,9.045z M5.902,19.607c-1.288-0.178-2.188-1.365-2.008-2.655 c0.179-1.285,1.369-2.187,2.656-2.005c1.286,0.177,2.187,1.365,2.007,2.653C8.378,18.89,7.189,19.788,5.902,19.607z"></path> <path d="M19.325,21.314l0.324-0.41L31.588,5.342c-0.025-0.255-0.161-0.612-0.609-1.018c-0.885-0.798-1.467-0.407-1.467-0.407 L15.634,17.33l-0.355,0.342L19.325,21.314z"></path> <path d="M14.531,26.638l0.342-0.383l3.733-4.156l-4.071-3.623l-3.707,4.133l-0.343,0.384L14.531,26.638z M12.307,22.386 l1.855-2.104c0.172-0.194,0.468-0.216,0.663-0.042l0.239,0.211c0.093,0.082,0.149,0.195,0.158,0.32 c0.007,0.127-0.034,0.248-0.117,0.342l-1.856,2.104c-0.172,0.193-0.468,0.216-0.663,0.04l-0.237-0.209 c-0.095-0.083-0.15-0.195-0.159-0.32C12.183,22.603,12.225,22.479,12.307,22.386z"></path> <path d="M13.44,27.736L13.44,27.736c0-0.002,0.211-0.336,0.244-0.401l-3.792-3.431c-0.086,0.016-0.167,0.035-0.253,0.054 c-0.009,0.002-0.015,0.005-0.023,0.007c-3.064,0.724-6.078,4.013-3.046,7.7c0.14,0.169,0.366,0.243,0.579,0.188 s0.375-0.229,0.415-0.441c0.088-0.486,0.263-1.018,0.671-1.403C9.167,29.125,11.779,30.549,13.44,27.736z M9.735,28.662 c-0.763,0.029-1.551,0.06-2.152,0.629C7.468,29.4,7.362,29.521,7.27,29.642c-0.106,0.139-0.281,0.207-0.453,0.178 S6.502,29.667,6.449,29.5c-0.171-0.524-0.212-1.092-0.047-1.673c0.095-0.341,0.252-0.657,0.452-0.944 c0.772,0.843,1.447,1.321,2.693,1.209c0.78-0.067,1.497-0.039,2.161,0.14C11.098,28.609,10.428,28.635,9.735,28.662z"></path> </g> </g> </g></svg>
+      Criar minha tattoo
+    </a>
+    <a href="https://wa.me/555184671294" class="btn-transparent">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       Agendar pelo WhatsApp
-    </a>
-    <a href="https://www.instagram.com/ramona_tattoo/" class="btn-transparent">
-      📷 Me chamar no Instagram
     </a>
   </div>
 </div>
@@ -368,9 +391,10 @@
       <p class="footer-nav-title">Navegação</p>
       <nav class="footer-nav">
         <a href="#portfolio">Portfólio</a>
-        <a href="#">Sobre mim</a>
-        <a href="#">Atendimento</a>
-        <a href="#">Cuidados</a>
+        <a href="#about">Sobre mim</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#cuidados">Cuidados</a>
+        <a href="#meu-estudio">Meu estúdio</a>
         <a href="#faq">Perguntas frequentes</a>
       </nav>
     </div>
@@ -379,15 +403,17 @@
   <div>
     <p class="footer-nav-title">Redes sociais</p>
     <div class="footer-social">
-      <div class="social-icon">📷</div>
-      <div class="social-icon">💬</div>
+      <a href="https://www.instagram.com/ramona_tattoo/" target="_blank">
+        <div class="social-icon"><img src="imagens/icone-instagram.png" alt="Instagram">
+        </div>
+      </a>
     </div>
   </div>
 
   <div class="footer-divider"></div>
 
   <div class="footer-bottom">
-    <span>© 2024 Ramona Tattoo. Todos os direitos reservados.</span>
+    <span>© 2026 Ramona Tattoo. Todos os direitos reservados.</span>
     <span>São José, SC 📍</span>
   </div>
 </footer>
@@ -408,6 +434,19 @@
 <div class="image-modal" id="imageModal">
   <span class="modal-close" onclick="closeModal()">×</span>
   <img class="modal-img" id="modalImg">
+</div>
+
+<!--POP UP KIT-->
+<div id="kitModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" onclick="closeKitModal()">×</span>
+
+    <h3>Kit de cuidados pós-tattoo</h3>
+    <img src="imagens/imagempopup.png" alt="Kit pós tattoo imagem" class="kitpopup-img">
+    <p>
+      O kit inclui orientações completas e dicas para cicatrização ideal da sua tatuagem, um sabonete antibacteriano suave para limpeza diária e uma pomada específica para tatuagens, garantindo melhor fixação da tinta, prevenção de infecções e preservação da qualidade da arte ao longo do tempo.
+    </p>
+  </div>
 </div>
 
 </body>
