@@ -35,7 +35,6 @@ const imagens = {
     "imagens/Pets/Pets-26.jpg",
     "imagens/Pets/Pets-27.jpg",
     "imagens/Pets/Pets-28.jpg",
-    "imagens/Pets/Pets-29.jpg",
     "imagens/Pets/Pets-30.jpg",
     "imagens/Pets/Pets-31.jpg",
     "imagens/Pets/Pets-32.jpg",
