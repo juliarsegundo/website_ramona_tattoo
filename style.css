@@ -828,7 +828,7 @@ body > nav {
     linear-gradient(
       to bottom,
     white 30%,
-    rgba(255,255,255,.95) 40%,
+    rgba(255,255,255,.95) 42%,
     rgba(255,255,255,0) 50%
     ),
     url("imagens/background-about.webp");
@@ -871,8 +871,8 @@ body > nav {
 .about-text::after {
   content: "”";
   position: absolute;
-  bottom: -60px;
-  right: -8px;
+  bottom: -70px;
+  right: -12px;
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   line-height: 1;
