@@ -14,7 +14,7 @@ for arquivo in os.listdir(pasta_entrada):
 
         imagem = Image.open(caminho_entrada)
 
-        # 🔥 corrige rotação de celular automaticamente
+        # corrige rotação de celular automaticamente
         try:
             from PIL import ImageOps
             imagem = ImageOps.exif_transpose(imagem)
@@ -24,7 +24,7 @@ for arquivo in os.listdir(pasta_entrada):
         # converter para RGB (necessário para JPG)
         imagem = imagem.convert("RGB")
 
-        # 🔥 redimensionar proporcionalmente
+        # redimensionar proporcionalmente
         largura_max = 800
         if imagem.width > largura_max:
             proporcao = largura_max / imagem.width
@@ -34,7 +34,7 @@ for arquivo in os.listdir(pasta_entrada):
         novo_nome = f"NOMEIMAGEM-{contador}.jpg"
         caminho_saida = os.path.join(pasta_saida, novo_nome)
 
-        # 🔥 salvar otimizado
+        # salvar otimizado
         imagem.save(
             caminho_saida.replace(".jpg", ".webp"),
             "WEBP",
