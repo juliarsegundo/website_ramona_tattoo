@@ -216,8 +216,8 @@ const imagens = {
   grid.style.transform = 'translateY(10px)';
   grid.style.transition = 'all 0.3s ease';
 
-  setTimeout(() => {
-    const items = imagens[category] || imagens.pets;
+setTimeout(() => {
+  const items = imagens.pets;
 
     grid.innerHTML = items.map((src, index) => `
       <div class="portfolio-item ${index >= 12 ? 'portfolio-item hidden-item' : 'portfolio-item show-item'}">
