@@ -210,20 +210,25 @@ const imagens = {
   ]
 };
 
+  const grid = document.getElementById('portfolio-grid');
+  grid.style.opacity = '0';
+  grid.style.transform = 'translateY(10px)';
+  grid.style.transition = 'all 0.3s ease';
 
   const grid = document.getElementById('portfolio-grid');
   grid.style.opacity = '0';
   grid.style.transform = 'translateY(10px)';
   grid.style.transition = 'all 0.3s ease';
 
-setTimeout(() => {
-  const items = imagens.pets;
-
-    grid.innerHTML = items.map((src, index) => `
-      <div class="portfolio-item ${index >= 12 ? 'portfolio-item hidden-item' : 'portfolio-item show-item'}">
-        <img src="${src}" loading="lazy" onclick="openModal('${src}')">
+  setTimeout(() => {
+    const items = imagens.pets;
+    
+    grid.innerHTML = items.map((item, index) => `
+      <div class="portfolio-item ${index >= 12 ? 'hidden-item' : 'show-item'}">
+        <img src="${item.src}" alt="${item.alt}" loading="lazy" onclick="openModal('${item.src}')">
       </div>
     `).join('');
+    
     const btn = document.querySelector('.see-more');
     if (btn) btn.textContent = 'Ver mais ↓';
     grid.style.opacity = '1';
