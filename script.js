@@ -1,10 +1,29 @@
-  function toggleFaq(el) {
+function toggleFaq(el) {
   el.classList.toggle('open');
 }
 
 function filterTab(btn, category) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   btn.classList.add('active');
+
+  const grid = document.getElementById('portfolio-grid');
+  if (!grid) return;
+
+  grid.innerHTML = '';
+
+  const listaImagens = imagens[category];
+
+  if (listaImagens) {
+    listaImagens.forEach(item => {
+      const itemHTML = `
+        <div class="portfolio-item">
+          <img src="${item.src}" alt="${item.alt}" loading="lazy" onclick="openModal('${item.src}')">
+        </div>
+      `;
+      grid.insertAdjacentHTML('beforeend', itemHTML);
+    });
+  }
+}
 
 const imagens = {
   pets: [
@@ -210,7 +229,6 @@ const imagens = {
     grid.style.opacity = '1';
     grid.style.transform = 'translateY(0)';
   }, 250);
-}
 
 const menuBtn = document.querySelector('.menu-btn');
 const mobileMenu = document.querySelector('.mobile-menu');
