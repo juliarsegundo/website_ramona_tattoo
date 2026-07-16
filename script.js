@@ -215,11 +215,6 @@ const imagens = {
   grid.style.transform = 'translateY(10px)';
   grid.style.transition = 'all 0.3s ease';
 
-  const grid = document.getElementById('portfolio-grid');
-  grid.style.opacity = '0';
-  grid.style.transform = 'translateY(10px)';
-  grid.style.transition = 'all 0.3s ease';
-
   setTimeout(() => {
     const items = imagens.pets;
     
