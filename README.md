@@ -16,17 +16,17 @@ The project was designed to convey delicacy, trust, and exclusivity, guiding vis
 
 ## ✨ Key Features
 
-- 📱 Mobile-First design
-- 🌸 Custom visual identity tailored to the brand
-- 🖼️ Portfolio gallery organized by categories
-- 🚀 Optimized image loading for better performance
-- 🎯 Strategic CTAs designed to improve conversions
-- 📄 Optimized customer journey (Briefing → WhatsApp)
-- 🔍 SEO-friendly structure
-- ⚡ Hosting and deployment with Vercel
-- 🌐 Custom domain configuration (via Registro.br)
-- 🔒 SSL certificate configured
-- 👀 Interface designed with a strong focus on aesthetics, readability, and user experience
+- Mobile-First design
+- Custom visual identity tailored to the brand
+- Portfolio gallery organized by categories
+- Optimized image loading for better performance
+- Strategic CTAs designed to improve conversions
+- Optimized customer journey (Briefing → WhatsApp)
+- SEO-friendly structure
+- Hosting and deployment with Vercel
+- Custom domain configuration (via Registro.br)
+- SSL certificate configured
+- Interface designed with a strong focus on aesthetics, readability, and user experience
 
 ---
 
@@ -127,7 +127,7 @@ This project allowed me to deepen my knowledge of:
 
 ---
 
-## 👩‍💻 Developed by
+## Developed by
 
 **Julia Rafaela**
 
